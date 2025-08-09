@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recetástico</title>
+    <link rel="icon" type="image/png" href="../assets/images/recetastico.png" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-success fixed-top">
+        <div class="container-fluid">
+          <div class="barra">
+            <a class="navbar-brand logo" href="../index.html"
+              ><img src="../assets/images/recetastico.png" alt="logo"
+            /></a>
+            <ul class="buttons">
+              <li>
+                <a href="../index.html">Inicio</a>
+              </li>
+              <li><a href="pastas.html">Pastas</a></li>
+              <li><a href="carnes.html">Carnes</a></li>
+              <li>
+                <a href="postres.html">Postres</a>
+              </li>
+              <li>
+                <a
+                  href="contacto.html"
+                  style="
+                    text-decoration: rgba(220, 250, 88, 0.667) 4px underline;
+                  "
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler hamburger"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Le Menu 👨‍🍳
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Secciones
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a class="dropdown-item" href="pastas.html">Pastas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="carnes.html">Carnes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="postres.html">Postres</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="video">
+          <video src="../assets/videos/contacto.mp4" autoplay loop></video>
+        </div>
+        <div class="contenido-banner">
+          <h1 class="titulo primario">Contacto</h1>
+        </div>
+      </section>
+
+      <section>
+        <div class="container mt-5">
+          <h2 class="titulo mb-5">
+            ¿Queres que sumemos tu receta favorita? ¡Decinos cual es! 😍
+          </h2>
+          <form
+            id="contact-form"
+            action="https://formsubmit.co/juanmcareaga@gmail.com"
+            method="POST"
+          >
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                name="user_name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="user_email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea
+                class="form-control"
+                id="mensaje"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn boton-primario">Enviar</button>
+          </form>
+          <div id="mensaje-exito" class="alert alert-success mt-3 d-none">
+            ¡Mensaje enviado con éxito!
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="../assets/images/recetastico.png" alt="" />
+      <h1>Footer</h1>
+      <div class="redes">
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Youtube</a>
+        <a href="">Tiktok</a>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

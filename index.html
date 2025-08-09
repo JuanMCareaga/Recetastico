@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recetástico</title>
+    <link rel="icon" type="image/png" href="assets/images/recetastico.png" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Comienzo de Header / Navbar -->
+    <header>
+      <nav class="navbar navbar-dark bg-success fixed-top">
+        <div class="container-fluid">
+          <div class="barra">
+            <a class="navbar-brand logo" href="#"
+              ><img src="assets/images/recetastico.png" alt="logo"
+            /></a>
+            <ul class="buttons">
+              <li>
+                <a
+                  href="../index.html"
+                  style="
+                    text-decoration: rgba(220, 250, 88, 0.667) 4px underline;
+                  "
+                  >Inicio</a
+                >
+              </li>
+              <li><a href="./pages/pastas.html">Pastas</a></li>
+              <li><a href="./pages/carnes.html">Carnes</a></li>
+              <li>
+                <a href="./pages/postres.html">Postres</a>
+              </li>
+              <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler hamburger"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Le Menu 👨‍🍳
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Secciones
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a class="dropdown-item" href="./pages/pastas.html"
+                        >Pastas</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/carnes.html"
+                        >Carnes</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./pages/postres.html"
+                        >Postres</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin de Header / Navbar -->
+
+    <main>
+      <section class="banner">
+        <div class="video margen">
+          <video src="assets/videos/home.mp4" autoplay loop></video>
+        </div>
+        <div class="contenido-banner">
+          <h1 class="titulo primario">¡Bienvenidos a Recetástico! 👨‍🍳</h1>
+        </div>
+      </section>
+
+      <section class="sobre-nos">
+        <div class="sobre-texto">
+          <h2 class="titulo">¿Que vamos a comer?</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel
+            provident minus, obcaecati consectetur eveniet ullam minima numquam
+            in reiciendis enim sunt ipsa nam, sint ad? Corporis accusamus
+            numquam quasi. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Inventore accusamus vel, laborum error aperiam alias, enim ut
+            facilis eveniet dicta eum nulla necessitatibus tempore in molestiae
+            voluptates dolorum at? Quos!
+          </p>
+        </div>
+        <img src="assets/images/comida.jpg" alt="Almuerzo brindis comida" />
+      </section>
+
+      <section class="categorias">
+        <h2 class="titulo">Nuestras categorias</h2>
+        <ul class="contenedor-cat">
+          <li class="categoria pastas">
+            <a href="pages/pastas.html" class="subtitulo">Pastas</a>
+          </li>
+          <li class="categoria carne">
+            <a href="pages/carnes.html" class="subtitulo">Carnes</a>
+          </li>
+          <li class="categoria postre">
+            <a href="pages/postres.html" class="subtitulo">Postres</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="sobre-nos">
+        <div class="sobre-texto">
+          <h2 class="titulo">¿Tienes alguna sugerencia? ¡Contactanos!</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel
+            provident minus, obcaecati consectetur eveniet ullam minima numquam
+            in reiciendis enim sunt ipsa nam, sint ad? Corporis accusamus
+            numquam quasi. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Inventore accusamus vel, laborum error aperiam alias, enim ut
+            facilis eveniet dicta eum nulla necessitatibus tempore in molestiae
+            voluptates dolorum at? Quos!
+          </p>
+          <button class="boton-primario">Contactar 👨‍🍳</button>
+        </div>
+        <img src="assets/images/contacto.jpg" alt="Almuerzo brindis comida" />
+      </section>
+
+      <h2
+        class="titulo"
+        style="width: 30%; margin-left: 10%; margin-bottom: 50px"
+      >
+        Nuestra galeria
+      </h2>
+      <section class="galeria">
+        <div class="galeria-item item1">
+          <img
+            src="assets/images/chocotorta.jpg"
+            alt="Imagen 1"
+            style="
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 12px;
+            "
+          />
+        </div>
+        <div class="galeria-item item2">Imagen 2</div>
+        <div class="galeria-item item3">Imagen 3</div>
+        <div class="galeria-item item4">Imagen 4</div>
+        <div class="galeria-item item5">Imagen 5</div>
+        <div class="galeria-item item6">Imagen 6</div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="assets/images/recetastico.png" alt="logo recetastico" />
+      <div>
+        <h2>Enlaces</h2>
+        <ul>
+          <li>Pastas</li>
+          <li>Carnes</li>
+          <li>Postres</li>
+          <li>Contacto</li>
+        </ul>
+      </div>
+      <div class="redes">
+        <a href=""><i class="fab fa-facebook icono"></i></a>
+        <a href=""><i class="fa-brands fa-instagram icono"></i></a>
+        <a href=""><i class="fa-brands fa-youtube icono"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok icono"></i></a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

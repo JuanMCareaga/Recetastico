@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recetástico</title>
+    <link rel="icon" type="image/png" href="../assets/images/recetastico.png" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-success fixed-top">
+        <div class="container-fluid">
+          <div class="barra">
+            <a class="navbar-brand logo" href="../index.html"
+              ><img src="../assets/images/recetastico.png" alt="logo"
+            /></a>
+            <ul class="buttons">
+              <li>
+                <a href="../index.html">Inicio</a>
+              </li>
+              <li>
+                <a
+                  href="pastas.html"
+                  style="
+                    text-decoration: rgba(220, 250, 88, 0.667) 4px underline;
+                  "
+                  >Pastas</a
+                >
+              </li>
+              <li><a href="carnes.html">Carnes</a></li>
+              <li>
+                <a href="postres.html">Postres</a>
+              </li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <button
+            class="navbar-toggler hamburger"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Le Menu 👨‍🍳
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Secciones
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a class="dropdown-item" href="pastas.html">Pastas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="carnes.html">Carnes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="postres.html">Postres</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="video">
+          <video src="../assets/videos/pastas.mp4" autoplay loop></video>
+        </div>
+        <div class="contenido-banner">
+          <h1 class="titulo">Pastas</h1>
+        </div>
+      </section>
+
+      <section class="receta">
+        <div class="contenido-receta">
+          <div class="instrucciones">
+            <h1 class="titulo">Sorrentinos Caseros (jamón y queso)</h1>
+            <p>
+              Para la masa: 500 g de harina 0000 3 huevos 1 cda de aceite de
+              oliva 1 pizca de sal Agua (si hace falta, 1–2 cdas)
+              <br />
+              Para el relleno: 250 g de jamón cocido 250 g de queso cremoso
+              (tipo mozzarella o cuartirolo) 100 g de ricota (opcional, para
+              suavizar) Nuez moscada y pimienta a gusto.
+            </p>
+            <p>
+              Preparación 1. La masa: Hacé una corona con la harina y colocá los
+              huevos, el aceite y la sal en el centro. Integrá todo de a poco
+              hasta formar una masa lisa. Si está muy seca, agregá un poco de
+              agua. Amasá 10 minutos, cubrí con film y dejá descansar 30 min. 2.
+              El relleno: Picá bien fino el jamón y el queso, o procesalos
+              juntos. Agregá la ricota si querés, y condimentá con nuez moscada
+              y pimienta. Mezclá bien y llevá a la heladera mientras estirás la
+              masa. 3. Armado: Estirá la masa bien fina con palo de amasar o
+              máquina de pasta. Cortá discos de unos 6–7 cm de diámetro (podés
+              usar un vaso). Colocá una cucharadita de relleno en el centro de
+              cada disco. Humedecé los bordes con agua, cubrí con otro disco y
+              cerrá bien (presioná sin aire y usá un molde si tenés). 4.
+              Cocción: Herví abundante agua con sal. Cociná los sorrentinos por
+              3 a 5 minutos desde que flotan. 5. Salsa sugerida: Salsa rosa
+              (mitad crema, mitad tuco), fileto, o una salsa de cuatro quesos
+              les va perfecto.
+            </p>
+            <button class="boton-primario">Descargar receta 🍜</button>
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/Zm37qzchwkc?si=43EsEj8Sc9bjl9a5"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="receta">
+        <div class="contenido-receta">
+          <div class="instrucciones">
+            <h1 class="titulo">Sorrentinos Caseros (jamón y queso)</h1>
+            <p>
+              Para la masa: 500 g de harina 0000 3 huevos 1 cda de aceite de
+              oliva 1 pizca de sal Agua (si hace falta, 1–2 cdas)
+              <br />
+              Para el relleno: 250 g de jamón cocido 250 g de queso cremoso
+              (tipo mozzarella o cuartirolo) 100 g de ricota (opcional, para
+              suavizar) Nuez moscada y pimienta a gusto.
+            </p>
+            <p>
+              Preparación 1. La masa: Hacé una corona con la harina y colocá los
+              huevos, el aceite y la sal en el centro. Integrá todo de a poco
+              hasta formar una masa lisa. Si está muy seca, agregá un poco de
+              agua. Amasá 10 minutos, cubrí con film y dejá descansar 30 min. 2.
+              El relleno: Picá bien fino el jamón y el queso, o procesalos
+              juntos. Agregá la ricota si querés, y condimentá con nuez moscada
+              y pimienta. Mezclá bien y llevá a la heladera mientras estirás la
+              masa. 3. Armado: Estirá la masa bien fina con palo de amasar o
+              máquina de pasta. Cortá discos de unos 6–7 cm de diámetro (podés
+              usar un vaso). Colocá una cucharadita de relleno en el centro de
+              cada disco. Humedecé los bordes con agua, cubrí con otro disco y
+              cerrá bien (presioná sin aire y usá un molde si tenés). 4.
+              Cocción: Herví abundante agua con sal. Cociná los sorrentinos por
+              3 a 5 minutos desde que flotan. 5. Salsa sugerida: Salsa rosa
+              (mitad crema, mitad tuco), fileto, o una salsa de cuatro quesos
+              les va perfecto.
+            </p>
+            <button class="boton-primario">Descargar receta 🍜</button>
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/Zm37qzchwkc?si=43EsEj8Sc9bjl9a5"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="receta">
+        <div class="contenido-receta">
+          <div class="instrucciones">
+            <h1 class="titulo">Sorrentinos Caseros (jamón y queso)</h1>
+            <p>
+              Para la masa: 500 g de harina 0000 3 huevos 1 cda de aceite de
+              oliva 1 pizca de sal Agua (si hace falta, 1–2 cdas)
+              <br />
+              Para el relleno: 250 g de jamón cocido 250 g de queso cremoso
+              (tipo mozzarella o cuartirolo) 100 g de ricota (opcional, para
+              suavizar) Nuez moscada y pimienta a gusto.
+            </p>
+            <p>
+              Preparación 1. La masa: Hacé una corona con la harina y colocá los
+              huevos, el aceite y la sal en el centro. Integrá todo de a poco
+              hasta formar una masa lisa. Si está muy seca, agregá un poco de
+              agua. Amasá 10 minutos, cubrí con film y dejá descansar 30 min. 2.
+              El relleno: Picá bien fino el jamón y el queso, o procesalos
+              juntos. Agregá la ricota si querés, y condimentá con nuez moscada
+              y pimienta. Mezclá bien y llevá a la heladera mientras estirás la
+              masa. 3. Armado: Estirá la masa bien fina con palo de amasar o
+              máquina de pasta. Cortá discos de unos 6–7 cm de diámetro (podés
+              usar un vaso). Colocá una cucharadita de relleno en el centro de
+              cada disco. Humedecé los bordes con agua, cubrí con otro disco y
+              cerrá bien (presioná sin aire y usá un molde si tenés). 4.
+              Cocción: Herví abundante agua con sal. Cociná los sorrentinos por
+              3 a 5 minutos desde que flotan. 5. Salsa sugerida: Salsa rosa
+              (mitad crema, mitad tuco), fileto, o una salsa de cuatro quesos
+              les va perfecto.
+            </p>
+            <button class="boton-primario">Descargar receta 🍜</button>
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/Zm37qzchwkc?si=43EsEj8Sc9bjl9a5"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="receta">
+        <div class="contenido-receta">
+          <div class="instrucciones">
+            <h1 class="titulo">Sorrentinos Caseros (jamón y queso)</h1>
+            <p>
+              Para la masa: 500 g de harina 0000 3 huevos 1 cda de aceite de
+              oliva 1 pizca de sal Agua (si hace falta, 1–2 cdas)
+              <br />
+              Para el relleno: 250 g de jamón cocido 250 g de queso cremoso
+              (tipo mozzarella o cuartirolo) 100 g de ricota (opcional, para
+              suavizar) Nuez moscada y pimienta a gusto.
+            </p>
+            <p>
+              Preparación 1. La masa: Hacé una corona con la harina y colocá los
+              huevos, el aceite y la sal en el centro. Integrá todo de a poco
+              hasta formar una masa lisa. Si está muy seca, agregá un poco de
+              agua. Amasá 10 minutos, cubrí con film y dejá descansar 30 min. 2.
+              El relleno: Picá bien fino el jamón y el queso, o procesalos
+              juntos. Agregá la ricota si querés, y condimentá con nuez moscada
+              y pimienta. Mezclá bien y llevá a la heladera mientras estirás la
+              masa. 3. Armado: Estirá la masa bien fina con palo de amasar o
+              máquina de pasta. Cortá discos de unos 6–7 cm de diámetro (podés
+              usar un vaso). Colocá una cucharadita de relleno en el centro de
+              cada disco. Humedecé los bordes con agua, cubrí con otro disco y
+              cerrá bien (presioná sin aire y usá un molde si tenés). 4.
+              Cocción: Herví abundante agua con sal. Cociná los sorrentinos por
+              3 a 5 minutos desde que flotan. 5. Salsa sugerida: Salsa rosa
+              (mitad crema, mitad tuco), fileto, o una salsa de cuatro quesos
+              les va perfecto.
+            </p>
+            <button class="boton-primario">Descargar receta 🍜</button>
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/Zm37qzchwkc?si=43EsEj8Sc9bjl9a5"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img src="../assets/images/recetastico.png" alt="" />
+      <h1>Footer</h1>
+      <div class="redes">
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Youtube</a>
+        <a href="">Tiktok</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
