@@ -12,7 +12,10 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <link href="../css/style.css" rel="stylesheet" />
   </head>
   <body>
@@ -165,33 +168,39 @@
           </div>
         </div>
       </section>
+
+      <section class="encontranos">
+        <h2 class="titulo">¡Encontranos aqui! ✅</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d13091.177148769095!2d-58.17790264999999!3d-34.88651165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses!2sar!4v1754832490814!5m2!1ses!2sar"
+          width="100%"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </main>
 
     <footer>
-      <img src="../assets/images/recetastico.png" alt="" />
-      <h1>Footer</h1>
+      <img src="../assets/images/recetastico.png" alt="logo recetastico" />
+      <div class="enlaces">
+        <h2>Enlaces</h2>
+        <ul class="enlaces-list">
+          <li><a href="pastas.html">Pastas</a></li>
+          <li><a href="carnes.html">Carnes</a></li>
+          <li><a href="postres.html">Postres</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
       <div class="redes">
-        <a href="">Facebook</a>
-        <a href="">Instagram</a>
-        <a href="">Youtube</a>
-        <a href="">Tiktok</a>
+        <a href=""><i class="fab fa-facebook icono"></i></a>
+        <a href=""><i class="fa-brands fa-instagram icono"></i></a>
+        <a href=""><i class="fa-brands fa-youtube icono"></i></a>
+        <a href=""><i class="fa-brands fa-tiktok icono"></i></a>
       </div>
     </footer>
-
-    <script>
-      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-        anchor.addEventListener("click", function (e) {
-          e.preventDefault();
-          const target = document.querySelector(this.getAttribute("href"));
-          if (target) {
-            target.scrollIntoView({
-              behavior: "smooth",
-              block: "start",
-            });
-          }
-        });
-      });
-    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

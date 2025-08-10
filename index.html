@@ -29,7 +29,6 @@
   </head>
 
   <body>
-    <!-- Comienzo de Header / Navbar -->
     <header>
       <nav class="navbar navbar-dark bg-success fixed-top">
         <div class="container-fluid">
@@ -126,7 +125,6 @@
         </div>
       </nav>
     </header>
-    <!-- Fin de Header / Navbar -->
 
     <main>
       <section class="banner">
@@ -134,7 +132,7 @@
           <video src="assets/videos/home.mp4" autoplay loop></video>
         </div>
         <div class="contenido-banner">
-          <h1 class="titulo primario">¡Bienvenidos a Recetástico! 👨‍🍳</h1>
+          <h1 class="titulo">¡Bienvenidos a Recetástico! 👨‍🍳</h1>
         </div>
       </section>
 
@@ -181,47 +179,45 @@
             facilis eveniet dicta eum nulla necessitatibus tempore in molestiae
             voluptates dolorum at? Quos!
           </p>
-          <button class="boton-primario">Contactar 👨‍🍳</button>
+          <a href="pages/contacto.html"
+            ><button class="boton-primario">Contactar 👨‍🍳</button></a
+          >
         </div>
-        <img src="assets/images/contacto.jpg" alt="Almuerzo brindis comida" />
+        <img src="assets/images/contacto.jpg" alt="Cocina Almeja" />
       </section>
 
-      <h2
-        class="titulo"
-        style="width: 30%; margin-left: 10%; margin-bottom: 50px"
-      >
-        Nuestra galeria
-      </h2>
+      <h2 class="titulo gal">Nuestra galeria</h2>
       <section class="galeria">
         <div class="galeria-item item1">
-          <img
-            src="assets/images/chocotorta.jpg"
-            alt="Imagen 1"
-            style="
-              width: 100%;
-              height: 100%;
-              object-fit: cover;
-              border-radius: 12px;
-            "
-          />
+          <img src="assets/images/chocotorta.jpg" alt="Imagen chocotorta" />
         </div>
-        <div class="galeria-item item2">Imagen 2</div>
-        <div class="galeria-item item3">Imagen 3</div>
-        <div class="galeria-item item4">Imagen 4</div>
-        <div class="galeria-item item5">Imagen 5</div>
-        <div class="galeria-item item6">Imagen 6</div>
+        <div class="galeria-item item2">
+          <img src="assets/images/postres.jpg" alt="Imagen postres" />
+        </div>
+        <div class="galeria-item item3">
+          <img src="assets/images/pastas.jpg" alt="Imagen pastas" />
+        </div>
+        <div class="galeria-item item4">
+          <img src="assets/images/sorrentinos.jpg" alt="Imagen sorrentinos" />
+        </div>
+        <div class="galeria-item item5">
+          <img src="assets/images/banner.jpg" alt="Imagen hotcakes" />
+        </div>
+        <div class="galeria-item item6">
+          <img src="assets/images/salchichas.jpg" alt="Imagen salchichas" />
+        </div>
       </section>
     </main>
 
     <footer>
       <img src="assets/images/recetastico.png" alt="logo recetastico" />
-      <div>
+      <div class="enlaces">
         <h2>Enlaces</h2>
-        <ul>
-          <li>Pastas</li>
-          <li>Carnes</li>
-          <li>Postres</li>
-          <li>Contacto</li>
+        <ul class="enlaces-list">
+          <li><a href="pages/pastas.html">Pastas</a></li>
+          <li><a href="pages/carnes.html">Carnes</a></li>
+          <li><a href="pages/postres.html">Postres</a></li>
+          <li><a href="pages/contacto.html">Contacto</a></li>
         </ul>
       </div>
       <div class="redes">
