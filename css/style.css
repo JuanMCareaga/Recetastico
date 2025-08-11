@@ -455,7 +455,7 @@ iframe {
 
   .titulo{
     font-size: 18px;
-    width: 300px;
+    width: 100%;
   }
 
   .subtitulo{
@@ -508,6 +508,8 @@ iframe {
     display: flex;
     flex-direction: column;
     padding: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
   }
 
   .categoria {
