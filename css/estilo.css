@@ -372,6 +372,9 @@ nav {
     width: 80%;
     margin: 0;
   }
+  .receta iframe {
+    width: 80%;
+  }
   iframe {
     width: 80%;
     margin-top: 50px;

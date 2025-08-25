@@ -389,6 +389,12 @@ nav {
     margin: 0;
   }
 
+  .receta{
+    iframe{
+      width: 80%;
+    }
+  }
+
   iframe {
     width: 80%;
     margin-top: 50px;
@@ -496,6 +502,8 @@ nav {
   .video video {
     margin-left: -600px;
   }
+
+  
 
   footer {
     flex-direction: column;
