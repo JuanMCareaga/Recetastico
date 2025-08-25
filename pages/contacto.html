@@ -16,6 +16,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link href="../css/estilo.css" rel="stylesheet" />
   </head>
   <body>
@@ -122,7 +124,11 @@
       </section>
 
       <section>
-        <div class="container mt-5">
+        <div
+          class="container mt-5"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+        >
           <h2 class="titulo mb-5">
             ¿Queres que sumemos tu receta favorita? ¡Decinos cual es! 😍
           </h2>
@@ -175,6 +181,8 @@
           src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d13091.177148769095!2d-58.17790264999999!3d-34.88651165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses!2sar!4v1754832490814!5m2!1ses!2sar"
           width="100%"
           height="600"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
@@ -207,5 +215,9 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -21,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@400;600&display=swap"
       rel="stylesheet"
@@ -137,7 +138,7 @@
       </section>
 
       <section class="sobre-nos">
-        <div class="sobre-texto">
+        <div class="sobre-texto" data-aos="fade-right" data-aos-duration="1500">
           <h2 class="titulo">¿Que vamos a comer?</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel
@@ -149,12 +150,17 @@
             voluptates dolorum at? Quos!
           </p>
         </div>
-        <img src="assets/images/comida.jpg" alt="Almuerzo brindis comida" />
+        <img
+          src="assets/images/comida.jpg"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          alt="Almuerzo brindis comida"
+        />
       </section>
 
       <section class="categorias">
-        <h2 class="titulo">Nuestras categorias</h2>
-        <ul class="contenedor-cat">
+        <h2 class="titulo" data-aos="zoom-in">Nuestras categorias</h2>
+        <ul class="contenedor-cat" data-aos="zoom-in" data-aos-duration="1000">
           <li class="categoria pastas">
             <a href="pages/pastas.html" class="subtitulo">Pastas</a>
           </li>
@@ -168,7 +174,7 @@
       </section>
 
       <section class="sobre-nos">
-        <div class="sobre-texto">
+        <div class="sobre-texto" data-aos="fade-right" data-aos-duration="1500">
           <h2 class="titulo">¿Tienes alguna sugerencia? ¡Contactanos!</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel
@@ -183,27 +189,56 @@
             ><button class="boton-primario">Contactar 👨‍🍳</button></a
           >
         </div>
-        <img src="assets/images/contacto.jpg" alt="Cocina Almeja" />
+        <img
+          src="assets/images/contacto.jpg"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          alt="Cocina Almeja"
+        />
       </section>
 
       <h2 class="titulo gal">Nuestra galeria</h2>
       <section class="galeria">
-        <div class="galeria-item item1">
+        <div
+          class="galeria-item item1"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+        >
           <img src="assets/images/chocotorta.jpg" alt="Imagen chocotorta" />
         </div>
-        <div class="galeria-item item2">
+        <div
+          class="galeria-item item2"
+          data-aos="flip-left"
+          data-aos-duration="2000"
+        >
           <img src="assets/images/postres.jpg" alt="Imagen postres" />
         </div>
-        <div class="galeria-item item3">
+        <div
+          class="galeria-item item3"
+          data-aos="flip-left"
+          data-aos-duration="2500"
+        >
           <img src="assets/images/pastas.jpg" alt="Imagen pastas" />
         </div>
-        <div class="galeria-item item4">
+        <div
+          class="galeria-item item4"
+          data-aos="flip-left"
+          data-aos-duration="3000"
+        >
           <img src="assets/images/sorrentinos.jpg" alt="Imagen sorrentinos" />
         </div>
-        <div class="galeria-item item5">
+        <div
+          class="galeria-item item5"
+          data-aos="flip-left"
+          data-aos-duration="3500"
+        >
           <img src="assets/images/banner.jpg" alt="Imagen hotcakes" />
         </div>
-        <div class="galeria-item item6">
+        <div
+          class="galeria-item item6"
+          data-aos="flip-left"
+          data-aos-duration="4000"
+        >
           <img src="assets/images/salchichas.jpg" alt="Imagen salchichas" />
         </div>
       </section>
@@ -233,5 +268,9 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
