@@ -3,8 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recetástico</title>
+
+    <!-- SEO -->
+    <title>Recetas de Pastas Caseras - Recetástico 🍝</title>
+    <meta
+      name="description"
+      content="Descubre las mejores recetas de pastas caseras: sorrentinos, ñoquis de papa, lasagna italiana y spaghetti a la carbonara. Paso a paso y con videos en Recetástico."
+    />
+    <meta
+      name="keywords"
+      content="recetas de pastas, pastas caseras, ñoquis, lasagna, carbonara, sorrentinos, cocina italiana"
+    />
+    <meta name="author" content="Recetástico" />
+    <link rel="canonical" href="https://tusitio.com/pages/pastas.html" />
+
+    <!-- Open Graph (para compartir en redes sociales) -->
+    <meta
+      property="og:title"
+      content="Recetas de Pastas Caseras - Recetástico"
+    />
+    <meta
+      property="og:description"
+      content="Aprende a cocinar pastas caseras: ñoquis, lasagna, carbonara y sorrentinos, con recetas fáciles y videos paso a paso."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://tusitio.com/pages/pastas.html" />
+    <meta
+      property="og:image"
+      content="https://tusitio.com/assets/images/pastas.jpg"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Recetas de Pastas Caseras - Recetástico"
+    />
+    <meta
+      name="twitter:description"
+      content="Recetas fáciles de pastas caseras con videos: ñoquis, lasagna, carbonara y sorrentinos."
+    />
+    <meta
+      name="twitter:image"
+      content="https://tusitio.com/assets/images/pastas.jpg"
+    />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="../assets/images/recetastico.png" />
+
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -12,39 +58,43 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+
+    <!-- Iconos -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+
+    <!-- AOS y estilos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="../css/estilo.css" rel="stylesheet" />
   </head>
+
   <body>
     <header>
-      <nav class="navbar navbar-dark fixed-top">
+      <nav class="navbar navbar-dark fixed-top" role="navigation">
         <div class="container-fluid">
           <div class="barra">
-            <a class="navbar-brand logo" href="../index.html"
-              ><img src="../assets/images/recetastico.png" alt="logo"
-            /></a>
+            <a
+              class="navbar-brand logo"
+              href="../index.html"
+              aria-label="Ir a inicio Recetástico"
+            >
+              <img
+                src="../assets/images/recetastico.png"
+                alt="Logo Recetástico"
+              />
+            </a>
             <ul class="buttons">
+              <li><a href="../index.html" class="pestaña">Inicio</a></li>
+              <li><a href="pastas.html" class="indice">Pastas</a></li>
+              <li><a href="carnes.html" class="pestaña">Carnes</a></li>
               <li>
-                <a href="../index.html">Inicio</a>
+                <a href="postres.html" class="pestaña">Postres</a>
               </li>
               <li>
-                <a
-                  href="pastas.html"
-                  style="
-                    text-decoration: rgba(220, 250, 88, 0.667) 4px underline;
-                  "
-                  >Pastas</a
-                >
+                <a href="contacto.html" class="pestaña">Contacto</a>
               </li>
-              <li><a href="carnes.html">Carnes</a></li>
-              <li>
-                <a href="postres.html">Postres</a>
-              </li>
-              <li><a href="contacto.html">Contacto</a></li>
             </ul>
           </div>
           <button
@@ -112,16 +162,18 @@
         </div>
       </nav>
     </header>
+
     <main>
       <section class="banner">
         <div class="video">
           <video src="../assets/videos/pastas.mp4" autoplay loop></video>
         </div>
         <div class="contenido-banner">
-          <h1 class="titulo">Pastas</h1>
+          <h1 class="titulo">Las mejores pastas caseras 🍜</h1>
         </div>
       </section>
 
+      <!-- Receta 1 -->
       <section class="receta">
         <div class="contenido-receta">
           <div
@@ -131,36 +183,16 @@
           >
             <h1 class="titulo">Sorrentinos Caseros (jamón y queso)</h1>
             <p>
-              Para la masa: 500 g de harina 0000 3 huevos 1 cda de aceite de
-              oliva 1 pizca de sal Agua (si hace falta, 1–2 cdas)
-              <br />
-              Para el relleno: 250 g de jamón cocido 250 g de queso cremoso
-              (tipo mozzarella o cuartirolo) 100 g de ricota (opcional, para
-              suavizar) Nuez moscada y pimienta a gusto.
-            </p>
-            <p>
-              Preparación 1. La masa: Hacé una corona con la harina y colocá los
-              huevos, el aceite y la sal en el centro. Integrá todo de a poco
-              hasta formar una masa lisa. Si está muy seca, agregá un poco de
-              agua. Amasá 10 minutos, cubrí con film y dejá descansar 30 min. 2.
-              El relleno: Picá bien fino el jamón y el queso, o procesalos
-              juntos. Agregá la ricota si querés, y condimentá con nuez moscada
-              y pimienta. Mezclá bien y llevá a la heladera mientras estirás la
-              masa. 3. Armado: Estirá la masa bien fina con palo de amasar o
-              máquina de pasta. Cortá discos de unos 6–7 cm de diámetro (podés
-              usar un vaso). Colocá una cucharadita de relleno en el centro de
-              cada disco. Humedecé los bordes con agua, cubrí con otro disco y
-              cerrá bien (presioná sin aire y usá un molde si tenés). 4.
-              Cocción: Herví abundante agua con sal. Cociná los sorrentinos por
-              3 a 5 minutos desde que flotan. 5. Salsa sugerida: Salsa rosa
-              (mitad crema, mitad tuco), fileto, o una salsa de cuatro quesos
-              les va perfecto.
+              Masa: 500 g harina 0000, 3 huevos, 1 cda aceite de oliva, pizca de
+              sal. Relleno: 250 g jamón cocido, 250 g queso cremoso, 100 g
+              ricota, nuez moscada y pimienta. Hervir y acompañar con salsa
+              rosa, fileto o cuatro quesos.
             </p>
             <button class="boton-primario">Descargar receta 🍜</button>
           </div>
           <iframe
-            src="https://www.youtube.com/embed/Zm37qzchwkc?si=43EsEj8Sc9bjl9a5"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/Zm37qzchwkc"
+            title="Cómo hacer sorrentinos caseros"
             frameborder="0"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
@@ -171,6 +203,7 @@
         </div>
       </section>
 
+      <!-- Receta 2 -->
       <section class="receta">
         <div class="contenido-receta">
           <div
@@ -178,38 +211,18 @@
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <h1 class="titulo">Sorrentinos Caseros (jamón y queso)</h1>
+            <h1 class="titulo">Ñoquis de papa caseros</h1>
             <p>
-              Para la masa: 500 g de harina 0000 3 huevos 1 cda de aceite de
-              oliva 1 pizca de sal Agua (si hace falta, 1–2 cdas)
-              <br />
-              Para el relleno: 250 g de jamón cocido 250 g de queso cremoso
-              (tipo mozzarella o cuartirolo) 100 g de ricota (opcional, para
-              suavizar) Nuez moscada y pimienta a gusto.
+              Ingredientes: 1 kg de papas, 300 g harina 0000, 1 huevo, sal,
+              pimienta y nuez moscada. Preparación: hervir papas, pisarlas y
+              mezclar con harina y huevo. Formar tiras, cortar ñoquis y hervir
+              en agua con sal. Sugerencia: servir con salsa fileto o pesto.
             </p>
-            <p>
-              Preparación 1. La masa: Hacé una corona con la harina y colocá los
-              huevos, el aceite y la sal en el centro. Integrá todo de a poco
-              hasta formar una masa lisa. Si está muy seca, agregá un poco de
-              agua. Amasá 10 minutos, cubrí con film y dejá descansar 30 min. 2.
-              El relleno: Picá bien fino el jamón y el queso, o procesalos
-              juntos. Agregá la ricota si querés, y condimentá con nuez moscada
-              y pimienta. Mezclá bien y llevá a la heladera mientras estirás la
-              masa. 3. Armado: Estirá la masa bien fina con palo de amasar o
-              máquina de pasta. Cortá discos de unos 6–7 cm de diámetro (podés
-              usar un vaso). Colocá una cucharadita de relleno en el centro de
-              cada disco. Humedecé los bordes con agua, cubrí con otro disco y
-              cerrá bien (presioná sin aire y usá un molde si tenés). 4.
-              Cocción: Herví abundante agua con sal. Cociná los sorrentinos por
-              3 a 5 minutos desde que flotan. 5. Salsa sugerida: Salsa rosa
-              (mitad crema, mitad tuco), fileto, o una salsa de cuatro quesos
-              les va perfecto.
-            </p>
-            <button class="boton-primario">Descargar receta 🍜</button>
+            <button class="boton-primario">Descargar receta 🍝</button>
           </div>
           <iframe
-            src="https://www.youtube.com/embed/Zm37qzchwkc?si=43EsEj8Sc9bjl9a5"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/RqA_y0SCOq4?si=CQswLzm2PlO_Q6Hg"
+            title="Ñoquis de papa caseros"
             frameborder="0"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
@@ -220,6 +233,7 @@
         </div>
       </section>
 
+      <!-- Receta 3 -->
       <section class="receta">
         <div class="contenido-receta">
           <div
@@ -227,38 +241,18 @@
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <h1 class="titulo">Sorrentinos Caseros (jamón y queso)</h1>
+            <h1 class="titulo">Lasagna clásica italiana</h1>
             <p>
-              Para la masa: 500 g de harina 0000 3 huevos 1 cda de aceite de
-              oliva 1 pizca de sal Agua (si hace falta, 1–2 cdas)
-              <br />
-              Para el relleno: 250 g de jamón cocido 250 g de queso cremoso
-              (tipo mozzarella o cuartirolo) 100 g de ricota (opcional, para
-              suavizar) Nuez moscada y pimienta a gusto.
+              Ingredientes: láminas de pasta, carne picada, salsa de tomate,
+              bechamel y queso rallado. Preparación: intercalar capas de pasta,
+              carne con salsa, bechamel y queso. Hornear 40 min a 180 °C. Ideal
+              para compartir en familia.
             </p>
-            <p>
-              Preparación 1. La masa: Hacé una corona con la harina y colocá los
-              huevos, el aceite y la sal en el centro. Integrá todo de a poco
-              hasta formar una masa lisa. Si está muy seca, agregá un poco de
-              agua. Amasá 10 minutos, cubrí con film y dejá descansar 30 min. 2.
-              El relleno: Picá bien fino el jamón y el queso, o procesalos
-              juntos. Agregá la ricota si querés, y condimentá con nuez moscada
-              y pimienta. Mezclá bien y llevá a la heladera mientras estirás la
-              masa. 3. Armado: Estirá la masa bien fina con palo de amasar o
-              máquina de pasta. Cortá discos de unos 6–7 cm de diámetro (podés
-              usar un vaso). Colocá una cucharadita de relleno en el centro de
-              cada disco. Humedecé los bordes con agua, cubrí con otro disco y
-              cerrá bien (presioná sin aire y usá un molde si tenés). 4.
-              Cocción: Herví abundante agua con sal. Cociná los sorrentinos por
-              3 a 5 minutos desde que flotan. 5. Salsa sugerida: Salsa rosa
-              (mitad crema, mitad tuco), fileto, o una salsa de cuatro quesos
-              les va perfecto.
-            </p>
-            <button class="boton-primario">Descargar receta 🍜</button>
+            <button class="boton-primario">Descargar receta 🍲</button>
           </div>
           <iframe
-            src="https://www.youtube.com/embed/Zm37qzchwkc?si=43EsEj8Sc9bjl9a5"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/s_FLKOlGQ4c?si=UW6SL6t1TW2ssgea"
+            title="Lasagna italiana casera"
             frameborder="0"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
@@ -269,6 +263,7 @@
         </div>
       </section>
 
+      <!-- Receta 4 -->
       <section class="receta">
         <div class="contenido-receta">
           <div
@@ -276,38 +271,18 @@
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <h1 class="titulo">Sorrentinos Caseros (jamón y queso)</h1>
+            <h1 class="titulo">Spaghetti a la carbonara</h1>
             <p>
-              Para la masa: 500 g de harina 0000 3 huevos 1 cda de aceite de
-              oliva 1 pizca de sal Agua (si hace falta, 1–2 cdas)
-              <br />
-              Para el relleno: 250 g de jamón cocido 250 g de queso cremoso
-              (tipo mozzarella o cuartirolo) 100 g de ricota (opcional, para
-              suavizar) Nuez moscada y pimienta a gusto.
+              Ingredientes: 400 g spaghetti, 150 g panceta, 3 yemas, 1 huevo, 50
+              g queso parmesano, pimienta negra. Preparación: cocinar pasta al
+              dente. Saltear panceta, mezclar con huevos y queso fuera del
+              fuego. Servir caliente con extra de parmesano.
             </p>
-            <p>
-              Preparación 1. La masa: Hacé una corona con la harina y colocá los
-              huevos, el aceite y la sal en el centro. Integrá todo de a poco
-              hasta formar una masa lisa. Si está muy seca, agregá un poco de
-              agua. Amasá 10 minutos, cubrí con film y dejá descansar 30 min. 2.
-              El relleno: Picá bien fino el jamón y el queso, o procesalos
-              juntos. Agregá la ricota si querés, y condimentá con nuez moscada
-              y pimienta. Mezclá bien y llevá a la heladera mientras estirás la
-              masa. 3. Armado: Estirá la masa bien fina con palo de amasar o
-              máquina de pasta. Cortá discos de unos 6–7 cm de diámetro (podés
-              usar un vaso). Colocá una cucharadita de relleno en el centro de
-              cada disco. Humedecé los bordes con agua, cubrí con otro disco y
-              cerrá bien (presioná sin aire y usá un molde si tenés). 4.
-              Cocción: Herví abundante agua con sal. Cociná los sorrentinos por
-              3 a 5 minutos desde que flotan. 5. Salsa sugerida: Salsa rosa
-              (mitad crema, mitad tuco), fileto, o una salsa de cuatro quesos
-              les va perfecto.
-            </p>
-            <button class="boton-primario">Descargar receta 🍜</button>
+            <button class="boton-primario">Descargar receta 🍝</button>
           </div>
           <iframe
-            src="https://www.youtube.com/embed/Zm37qzchwkc?si=43EsEj8Sc9bjl9a5"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/3AAdKl1UYZs"
+            title="Spaghetti alla carbonara auténtico"
             frameborder="0"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
@@ -319,9 +294,9 @@
       </section>
     </main>
     <footer>
-      <img src="../assets/images/recetastico.png" alt="logo recetastico" />
+      <img src="../assets/images/recetastico.png" alt="Logo Recetástico" />
       <div class="enlaces">
-        <h2>Enlaces</h2>
+        <h2>Enlaces rápidos</h2>
         <ul class="enlaces-list">
           <li><a href="pastas.html">Pastas</a></li>
           <li><a href="carnes.html">Carnes</a></li>
@@ -330,10 +305,18 @@
         </ul>
       </div>
       <div class="redes">
-        <a href=""><i class="fab fa-facebook icono"></i></a>
-        <a href=""><i class="fa-brands fa-instagram icono"></i></a>
-        <a href=""><i class="fa-brands fa-youtube icono"></i></a>
-        <a href=""><i class="fa-brands fa-tiktok icono"></i></a>
+        <a href="#" aria-label="Facebook"
+          ><i class="fab fa-facebook icono"></i
+        ></a>
+        <a href="#" aria-label="Instagram"
+          ><i class="fa-brands fa-instagram icono"></i
+        ></a>
+        <a href="#" aria-label="YouTube"
+          ><i class="fa-brands fa-youtube icono"></i
+        ></a>
+        <a href="#" aria-label="TikTok"
+          ><i class="fa-brands fa-tiktok icono"></i
+        ></a>
       </div>
     </footer>
 

@@ -97,6 +97,13 @@ nav {
   @include box-shadow();
 }
 
+.indice {
+  text-decoration: rgba(220, 250, 88, 0.667) 4px underline;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: 14px;
+}
+
 .banner {
   @include flex-center(center, center);
   width: 100%;
@@ -155,7 +162,7 @@ nav {
     margin-right: 50px;
   }
 
-  a {
+  .pestaña {
     text-decoration: none;
     color: aliceblue;
     font-weight: 600;
@@ -389,8 +396,8 @@ nav {
     margin: 0;
   }
 
-  .receta{
-    iframe{
+  .receta {
+    iframe {
       width: 80%;
     }
   }
@@ -502,8 +509,6 @@ nav {
   .video video {
     margin-left: -600px;
   }
-
-  
 
   footer {
     flex-direction: column;

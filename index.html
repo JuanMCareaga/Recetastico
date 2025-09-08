@@ -1,10 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recetástico</title>
+
+    <!-- SEO básico -->
+    <title>Recetástico - Recetas de Pastas, Carnes y Postres fáciles</title>
+    <meta
+      name="description"
+      content="Recetástico es tu lugar para descubrir recetas fáciles y deliciosas de pastas, carnes y postres. Inspírate y cocina con nosotros 👨‍🍳"
+    />
+    <meta
+      name="keywords"
+      content="recetas, cocina, pastas, carnes, postres, comida fácil, Recetástico"
+    />
+    <meta name="author" content="Recetástico" />
+    <link rel="canonical" href="https://tusitio.com/" />
+
+    <!-- Open Graph (para compartir en redes sociales) -->
+    <meta
+      property="og:title"
+      content="Recetástico - Recetas fáciles y deliciosas"
+    />
+    <meta
+      property="og:description"
+      content="Descubre recetas de pastas, carnes y postres en Recetástico. ¡Cocina rico y fácil!"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tusitio.com/" />
+    <meta
+      property="og:image"
+      content="https://tusitio.com/assets/images/recetastico.png"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Recetástico - Recetas fáciles y deliciosas"
+    />
+    <meta
+      name="twitter:description"
+      content="Pastas, carnes y postres para todos los gustos en Recetástico 👨‍🍳"
+    />
+    <meta
+      name="twitter:image"
+      content="https://tusitio.com/assets/images/recetastico.png"
+    />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/images/recetastico.png" />
+
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -13,10 +59,13 @@
       crossorigin="anonymous"
     />
 
+    <!-- Iconos -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+
+    <!-- Tipografías -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -25,34 +74,34 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Quicksand:wght@400;600&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Estilos -->
     <link href="css/estilo.css" rel="stylesheet" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <nav class="navbar navbar-dark fixed-top">
+      <nav class="navbar navbar-dark fixed-top" role="navigation">
         <div class="container-fluid">
           <div class="barra">
-            <a class="navbar-brand logo" href="#"
-              ><img src="assets/images/recetastico.png" alt="logo"
-            /></a>
+            <a
+              class="navbar-brand logo"
+              href="index.html"
+              aria-label="Ir a inicio Recetástico"
+            >
+              <img src="assets/images/recetastico.png" alt="Logo Recetástico" />
+            </a>
             <ul class="buttons">
+              <li><a href="../index.html" class="indice">Inicio</a></li>
+              <li><a href="./pages/pastas.html" class="pestaña">Pastas</a></li>
+              <li><a href="./pages/carnes.html" class="pestaña">Carnes</a></li>
               <li>
-                <a
-                  href="../index.html"
-                  style="
-                    text-decoration: rgba(220, 250, 88, 0.667) 4px underline;
-                  "
-                  >Inicio</a
-                >
+                <a href="./pages/postres.html" class="pestaña">Postres</a>
               </li>
-              <li><a href="./pages/pastas.html">Pastas</a></li>
-              <li><a href="./pages/carnes.html">Carnes</a></li>
               <li>
-                <a href="./pages/postres.html">Postres</a>
+                <a href="./pages/contacto.html" class="pestaña">Contacto</a>
               </li>
-              <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
           </div>
           <button
@@ -128,75 +177,81 @@
     </header>
 
     <main>
+      <!-- Hero -->
       <section class="banner">
         <div class="video margen">
-          <video src="assets/videos/home.mp4" autoplay loop></video>
+          <video
+            src="assets/videos/home.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+          ></video>
         </div>
         <div class="contenido-banner">
-          <h1 class="titulo">¡Bienvenidos a Recetástico! 👨‍🍳</h1>
+          <h1 class="titulo">
+            Recetástico: Recetas fáciles de Pastas, Carnes y Postres 👨‍🍳
+          </h1>
         </div>
       </section>
 
+      <!-- Sobre nosotros -->
       <section class="sobre-nos">
         <div class="sobre-texto" data-aos="fade-right" data-aos-duration="1500">
-          <h2 class="titulo">¿Que vamos a comer?</h2>
+          <h2 class="titulo">¿Qué vamos a comer hoy?</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel
-            provident minus, obcaecati consectetur eveniet ullam minima numquam
-            in reiciendis enim sunt ipsa nam, sint ad? Corporis accusamus
-            numquam quasi. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Inventore accusamus vel, laborum error aperiam alias, enim ut
-            facilis eveniet dicta eum nulla necessitatibus tempore in molestiae
-            voluptates dolorum at? Quos!
+            En Recetástico te ofrecemos ideas simples y deliciosas para cocinar
+            en casa: desde pastas caseras hasta carnes jugosas y postres
+            irresistibles.
           </p>
         </div>
         <img
           src="assets/images/comida.jpg"
           data-aos="zoom-in-up"
           data-aos-duration="1500"
-          alt="Almuerzo brindis comida"
+          alt="Mesa con platos de comida variada"
         />
       </section>
 
+      <!-- Categorías -->
       <section class="categorias">
-        <h2 class="titulo" data-aos="zoom-in">Nuestras categorias</h2>
+        <h2 class="titulo" data-aos="zoom-in">Nuestras categorías</h2>
         <ul class="contenedor-cat" data-aos="zoom-in" data-aos-duration="1000">
           <li class="categoria pastas">
-            <a href="pages/pastas.html" class="subtitulo">Pastas</a>
+            <a href="pages/pastas.html" class="subtitulo">Recetas de Pastas</a>
           </li>
           <li class="categoria carne">
-            <a href="pages/carnes.html" class="subtitulo">Carnes</a>
+            <a href="pages/carnes.html" class="subtitulo">Recetas de Carnes</a>
           </li>
           <li class="categoria postre">
-            <a href="pages/postres.html" class="subtitulo">Postres</a>
+            <a href="pages/postres.html" class="subtitulo"
+              >Recetas de Postres</a
+            >
           </li>
         </ul>
       </section>
 
+      <!-- Contacto -->
       <section class="sobre-nos">
         <div class="sobre-texto" data-aos="fade-right" data-aos-duration="1500">
-          <h2 class="titulo">¿Tienes alguna sugerencia? ¡Contactanos!</h2>
+          <h2 class="titulo">¿alguna sugerencia? ¡Contáctanos!</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, vel
-            provident minus, obcaecati consectetur eveniet ullam minima numquam
-            in reiciendis enim sunt ipsa nam, sint ad? Corporis accusamus
-            numquam quasi. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Inventore accusamus vel, laborum error aperiam alias, enim ut
-            facilis eveniet dicta eum nulla necessitatibus tempore in molestiae
-            voluptates dolorum at? Quos!
+            Queremos escuchar tus ideas para mejorar Recetástico. Escríbenos y
+            comparte tus recetas o sugerencias.
           </p>
-          <a href="pages/contacto.html"
-            ><button class="boton-primario">Contactar 👨‍🍳</button></a
-          >
+          <a href="pages/contacto.html">
+            <button class="boton-primario">Contactar 👨‍🍳</button>
+          </a>
         </div>
         <img
           src="assets/images/contacto.jpg"
           data-aos="zoom-in-up"
           data-aos-duration="1500"
-          alt="Cocina Almeja"
+          alt="Cocinero preparando comida"
         />
       </section>
 
+      <!-- Galería -->
       <h2 class="titulo gal">Nuestra galeria</h2>
       <section class="galeria">
         <div
@@ -204,50 +259,68 @@
           data-aos="flip-left"
           data-aos-duration="1500"
         >
-          <img src="assets/images/chocotorta.jpg" alt="Imagen chocotorta" />
+          <img
+            src="assets/images/chocotorta.jpg"
+            alt="Chocotorta casera con galletas y dulce de leche"
+          />
         </div>
         <div
           class="galeria-item item2"
           data-aos="flip-left"
           data-aos-duration="2000"
         >
-          <img src="assets/images/postres.jpg" alt="Imagen postres" />
+          <img
+            src="assets/images/postres.jpg"
+            alt="Variedad de postres dulces"
+          />
         </div>
         <div
           class="galeria-item item3"
           data-aos="flip-left"
           data-aos-duration="2500"
         >
-          <img src="assets/images/pastas.jpg" alt="Imagen pastas" />
+          <img
+            src="assets/images/pastas.jpg"
+            alt="Plato de pastas caseras con salsa"
+          />
         </div>
         <div
           class="galeria-item item4"
           data-aos="flip-left"
           data-aos-duration="3000"
         >
-          <img src="assets/images/sorrentinos.jpg" alt="Imagen sorrentinos" />
+          <img
+            src="assets/images/sorrentinos.jpg"
+            alt="Sorrentinos rellenos de jamón y queso"
+          />
         </div>
         <div
           class="galeria-item item5"
           data-aos="flip-left"
           data-aos-duration="3500"
         >
-          <img src="assets/images/banner.jpg" alt="Imagen hotcakes" />
+          <img
+            src="assets/images/banner.jpg"
+            alt="Hotcakes esponjosos con miel"
+          />
         </div>
         <div
           class="galeria-item item6"
           data-aos="flip-left"
           data-aos-duration="4000"
         >
-          <img src="assets/images/salchichas.jpg" alt="Imagen salchichas" />
+          <img
+            src="assets/images/salchichas.jpg"
+            alt="Salchichas con salsa casera"
+          />
         </div>
       </section>
     </main>
 
     <footer>
-      <img src="assets/images/recetastico.png" alt="logo recetastico" />
+      <img src="assets/images/recetastico.png" alt="Logo Recetástico" />
       <div class="enlaces">
-        <h2>Enlaces</h2>
+        <h2>Enlaces rápidos</h2>
         <ul class="enlaces-list">
           <li><a href="pages/pastas.html">Pastas</a></li>
           <li><a href="pages/carnes.html">Carnes</a></li>
@@ -256,13 +329,22 @@
         </ul>
       </div>
       <div class="redes">
-        <a href=""><i class="fab fa-facebook icono"></i></a>
-        <a href=""><i class="fa-brands fa-instagram icono"></i></a>
-        <a href=""><i class="fa-brands fa-youtube icono"></i></a>
-        <a href=""><i class="fa-brands fa-tiktok icono"></i></a>
+        <a href="#" aria-label="Facebook"
+          ><i class="fab fa-facebook icono"></i
+        ></a>
+        <a href="#" aria-label="Instagram"
+          ><i class="fa-brands fa-instagram icono"></i
+        ></a>
+        <a href="#" aria-label="YouTube"
+          ><i class="fa-brands fa-youtube icono"></i
+        ></a>
+        <a href="#" aria-label="TikTok"
+          ><i class="fa-brands fa-tiktok icono"></i
+        ></a>
       </div>
     </footer>
 
+    <!-- Scripts -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"

@@ -3,8 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recetástico</title>
+
+    <!-- SEO -->
+    <title>Contacto - Recetástico 📩</title>
+    <meta
+      name="description"
+      content="¿Querés compartir tu receta favorita con nosotros? Contactate con Recetástico a través de nuestro formulario o seguinos en redes sociales."
+    />
+    <meta
+      name="keywords"
+      content="contacto Recetástico, enviar receta, formulario de contacto, recetas caseras, comunidad gastronómica"
+    />
+    <meta name="author" content="Recetástico" />
+    <link rel="canonical" href="https://tusitio.com/pages/contacto.html" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contacto - Recetástico" />
+    <meta
+      property="og:description"
+      content="Sumá tu receta favorita a Recetástico. Escribinos por el formulario de contacto o seguinos en redes sociales."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tusitio.com/pages/contacto.html" />
+    <meta
+      property="og:image"
+      content="https://tusitio.com/assets/images/recetastico.png"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Contacto - Recetástico" />
+    <meta
+      name="twitter:description"
+      content="Contactate con Recetástico y compartí tu receta favorita. Estamos en redes sociales y en nuestro formulario online."
+    />
+    <meta
+      name="twitter:image"
+      content="https://tusitio.com/assets/images/recetastico.png"
+    />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="../assets/images/recetastico.png" />
+
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -12,39 +52,42 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+
+    <!-- Iconos -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+    <!-- AOS y estilos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="../css/estilo.css" rel="stylesheet" />
   </head>
+
   <body>
     <header>
-      <nav class="navbar navbar-dark fixed-top">
+      <nav class="navbar navbar-dark fixed-top" role="navigation">
         <div class="container-fluid">
           <div class="barra">
-            <a class="navbar-brand logo" href="../index.html"
-              ><img src="../assets/images/recetastico.png" alt="logo"
-            /></a>
+            <a
+              class="navbar-brand logo"
+              href="../index.html"
+              aria-label="Ir a inicio Recetástico"
+            >
+              <img
+                src="../assets/images/recetastico.png"
+                alt="Logo Recetástico"
+              />
+            </a>
             <ul class="buttons">
+              <li><a href="../index.html" class="pestaña">Inicio</a></li>
+              <li><a href="pastas.html" class="pestaña">Pastas</a></li>
+              <li><a href="carnes.html" class="pestaña">Carnes</a></li>
               <li>
-                <a href="../index.html">Inicio</a>
-              </li>
-              <li><a href="pastas.html">Pastas</a></li>
-              <li><a href="carnes.html">Carnes</a></li>
-              <li>
-                <a href="postres.html">Postres</a>
+                <a href="postres.html" class="pestaña">Postres</a>
               </li>
               <li>
-                <a
-                  href="contacto.html"
-                  style="
-                    text-decoration: rgba(220, 250, 88, 0.667) 4px underline;
-                  "
-                  >Contacto</a
-                >
+                <a href="contacto.html" class="indice">Contacto</a>
               </li>
             </ul>
           </div>
@@ -119,7 +162,7 @@
           <video src="../assets/videos/contacto.mp4" autoplay loop></video>
         </div>
         <div class="contenido-banner">
-          <h1 class="titulo primario">Contacto</h1>
+          <h1 class="titulo primario">¡Contactanos y seguinos! 😊❤️</h1>
         </div>
       </section>
 
@@ -192,9 +235,9 @@
     </main>
 
     <footer>
-      <img src="../assets/images/recetastico.png" alt="logo recetastico" />
+      <img src="../assets/images/recetastico.png" alt="Logo Recetástico" />
       <div class="enlaces">
-        <h2>Enlaces</h2>
+        <h2>Enlaces rápidos</h2>
         <ul class="enlaces-list">
           <li><a href="pastas.html">Pastas</a></li>
           <li><a href="carnes.html">Carnes</a></li>
@@ -203,10 +246,18 @@
         </ul>
       </div>
       <div class="redes">
-        <a href=""><i class="fab fa-facebook icono"></i></a>
-        <a href=""><i class="fa-brands fa-instagram icono"></i></a>
-        <a href=""><i class="fa-brands fa-youtube icono"></i></a>
-        <a href=""><i class="fa-brands fa-tiktok icono"></i></a>
+        <a href="#" aria-label="Facebook"
+          ><i class="fab fa-facebook icono"></i
+        ></a>
+        <a href="#" aria-label="Instagram"
+          ><i class="fa-brands fa-instagram icono"></i
+        ></a>
+        <a href="#" aria-label="YouTube"
+          ><i class="fa-brands fa-youtube icono"></i
+        ></a>
+        <a href="#" aria-label="TikTok"
+          ><i class="fa-brands fa-tiktok icono"></i
+        ></a>
       </div>
     </footer>
 

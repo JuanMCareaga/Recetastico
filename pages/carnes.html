@@ -3,8 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recetástico</title>
+
+    <!-- SEO -->
+    <title>
+      Recetas de Carnes Jugosas al Horno y Parrilla - Recetástico 🥩
+    </title>
+    <meta
+      name="description"
+      content="Disfruta de las mejores recetas de carnes: vacío al horno, asado a la parrilla, pollo al limón y estofado de ternera. Recetas fáciles con videos paso a paso en Recetástico."
+    />
+    <meta
+      name="keywords"
+      content="recetas de carnes, vacío al horno, asado, pollo al limón, estofado de ternera, carnes jugosas, parrilla"
+    />
+    <meta name="author" content="Recetástico" />
+    <link rel="canonical" href="https://tusitio.com/pages/carnes.html" />
+
+    <!-- Open Graph (para compartir en redes sociales) -->
+    <meta
+      property="og:title"
+      content="Recetas de Carnes Jugosas al Horno y Parrilla - Recetástico"
+    />
+    <meta
+      property="og:description"
+      content="Aprende a preparar carnes irresistibles: vacío al horno, asado argentino, pollo al limón y estofado casero. Recetas fáciles y deliciosas."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://tusitio.com/pages/carnes.html" />
+    <meta
+      property="og:image"
+      content="https://tusitio.com/assets/images/carnes.jpg"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Recetas de Carnes Jugosas - Recetástico"
+    />
+    <meta
+      name="twitter:description"
+      content="Vacío al horno, asado a la parrilla, pollo al limón y estofado de ternera. Recetas con videos paso a paso."
+    />
+    <meta
+      name="twitter:image"
+      content="https://tusitio.com/assets/images/carnes.jpg"
+    />
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="../assets/images/recetastico.png" />
+
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
@@ -13,42 +61,42 @@
       crossorigin="anonymous"
     />
 
+    <!-- Iconos -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+    <!-- AOS y estilos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="../css/estilo.css" rel="stylesheet" />
   </head>
+
   <body>
     <header>
-      <nav class="navbar navbar-dark fixed-top">
+      <nav class="navbar navbar-dark fixed-top" role="navigation">
         <div class="container-fluid">
           <div class="barra">
-            <a class="navbar-brand logo" href="../index.html"
-              ><img src="../assets/images/recetastico.png" alt="logo"
-            /></a>
+            <a
+              class="navbar-brand logo"
+              href="../index.html"
+              aria-label="Ir a inicio Recetástico"
+            >
+              <img
+                src="../assets/images/recetastico.png"
+                alt="Logo Recetástico"
+              />
+            </a>
             <ul class="buttons">
+              <li><a href="../index.html" class="pestaña">Inicio</a></li>
+              <li><a href="pastas.html" class="pestaña">Pastas</a></li>
+              <li><a href="carnes.html" class="indice">Carnes</a></li>
               <li>
-                <a href="../index.html">Inicio</a>
+                <a href="postres.html" class="pestaña">Postres</a>
               </li>
               <li>
-                <a href="pastas.html">Pastas</a>
+                <a href="contacto.html" class="pestaña">Contacto</a>
               </li>
-              <li>
-                <a
-                  href="carnes.html"
-                  style="
-                    text-decoration: rgba(220, 250, 88, 0.667) 4px underline;
-                  "
-                  >Carnes</a
-                >
-              </li>
-              <li>
-                <a href="postres.html">Postres</a>
-              </li>
-              <li><a href="contacto.html">Contacto</a></li>
             </ul>
           </div>
           <button
@@ -116,16 +164,18 @@
         </div>
       </nav>
     </header>
+
     <main>
       <section class="banner">
         <div class="video">
           <video src="../assets/videos/carnes.mp4" autoplay loop></video>
         </div>
         <div class="contenido-banner">
-          <h1 class="titulo primario">Carnes</h1>
+          <h1 class="titulo primario">Unas ricas carnes para disfrutar 🥩</h1>
         </div>
       </section>
 
+      <!-- Receta 1 -->
       <section class="receta">
         <div class="contenido-receta">
           <div
@@ -133,31 +183,18 @@
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <h1 class="titulo">Vacio al horno con vegetales</h1>
+            <h1 class="titulo">Vacío al horno con vegetales</h1>
             <p>
-              Ingredientes (4 porciones) 1,2 a 1,5 kg de carne para horno
-              (colita de cuadril, tapa de nalga, roast beef o paleta) 4–5 papas
-              medianas 2 cebollas grandes 4 dientes de ajo 1 caldito de carne
-              (opcional) Romero, orégano, pimienta, sal Aceite de oliva o
-              girasol 1 vaso de vino tinto o caldo (opcional)
-            </p>
-            <p>
-              Preparación Precalentar el horno A 180–200 °C (fuerte pero no
-              máximo). Preparar la carne Salpimentá la carne y frotala con ajo
-              picado, romero y un chorrito de aceite. Sellala en una sartén bien
-              caliente (opcional, da más sabor y jugosidad). Verduras y papas
-              Pelá y cortá las papas en rodajas gruesas o en cuñas. Cortá la
-              cebolla en pluma. Mezclá todo en una fuente con aceite, sal,
-              orégano y un poco de caldo o vino. Horneado Poné la carne sobre
-              las verduras. Tapá con papel aluminio los primeros 40 minutos para
-              que se cocine parejo y no se seque. Destapá y cociná 30–40 min más
-              hasta que esté dorada por fuera y jugosa por dentro.
+              Ingredientes: 1,2 kg de vacío o similar, papas, cebollas, ajo,
+              vino tinto, romero, sal y pimienta. Preparación: sellar la carne,
+              acompañar con vegetales y cocinar al horno 70 minutos. Jugosa por
+              dentro, dorada por fuera.
             </p>
             <button class="boton-primario">Descargar receta 🥩</button>
           </div>
           <iframe
-            src="https://www.youtube.com/embed/luNouym0FgY?si=jCMn7yVHpV5X83HU"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/luNouym0FgY"
+            title="Vacío al horno con papas y cebolla"
             frameborder="0"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
@@ -167,6 +204,8 @@
           ></iframe>
         </div>
       </section>
+
+      <!-- Receta 2 -->
       <section class="receta">
         <div class="contenido-receta">
           <div
@@ -174,31 +213,18 @@
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <h1 class="titulo">Vacio al horno con vegetales</h1>
+            <h1 class="titulo">Asado argentino a la parrilla</h1>
             <p>
-              Ingredientes (4 porciones) 1,2 a 1,5 kg de carne para horno
-              (colita de cuadril, tapa de nalga, roast beef o paleta) 4–5 papas
-              medianas 2 cebollas grandes 4 dientes de ajo 1 caldito de carne
-              (opcional) Romero, orégano, pimienta, sal Aceite de oliva o
-              girasol 1 vaso de vino tinto o caldo (opcional)
+              Ingredientes: costillas, vacío o tira de asado, sal gruesa y
+              brasas de carbón o leña. Preparación: encender el fuego y dejar
+              brasas rojas. Cocinar la carne lentamente 1h a 1h30 según el
+              corte. Servir jugoso, acompañado con chimichurri casero.
             </p>
-            <p>
-              Preparación Precalentar el horno A 180–200 °C (fuerte pero no
-              máximo). Preparar la carne Salpimentá la carne y frotala con ajo
-              picado, romero y un chorrito de aceite. Sellala en una sartén bien
-              caliente (opcional, da más sabor y jugosidad). Verduras y papas
-              Pelá y cortá las papas en rodajas gruesas o en cuñas. Cortá la
-              cebolla en pluma. Mezclá todo en una fuente con aceite, sal,
-              orégano y un poco de caldo o vino. Horneado Poné la carne sobre
-              las verduras. Tapá con papel aluminio los primeros 40 minutos para
-              que se cocine parejo y no se seque. Destapá y cociná 30–40 min más
-              hasta que esté dorada por fuera y jugosa por dentro.
-            </p>
-            <button class="boton-primario">Descargar receta 🥩</button>
+            <button class="boton-primario">Descargar receta 🔥</button>
           </div>
           <iframe
-            src="https://www.youtube.com/embed/luNouym0FgY?si=jCMn7yVHpV5X83HU"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/vxscY-dy9IU?si=iW4XNUlNxwdVPlJ9"
+            title="Cómo hacer un auténtico asado argentino"
             frameborder="0"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
@@ -208,6 +234,8 @@
           ></iframe>
         </div>
       </section>
+
+      <!-- Receta 3 -->
       <section class="receta">
         <div class="contenido-receta">
           <div
@@ -215,31 +243,18 @@
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <h1 class="titulo">Vacio al horno con vegetales</h1>
+            <h1 class="titulo">Pollo al limón al horno</h1>
             <p>
-              Ingredientes (4 porciones) 1,2 a 1,5 kg de carne para horno
-              (colita de cuadril, tapa de nalga, roast beef o paleta) 4–5 papas
-              medianas 2 cebollas grandes 4 dientes de ajo 1 caldito de carne
-              (opcional) Romero, orégano, pimienta, sal Aceite de oliva o
-              girasol 1 vaso de vino tinto o caldo (opcional)
+              Ingredientes: 1 pollo entero, jugo de 2 limones, ajo, aceite de
+              oliva, sal y pimienta. Preparación: marinar con jugo de limón y
+              especias. Hornear 1h a 200 °C hasta dorar. Ideal con papas al
+              horno o ensalada fresca.
             </p>
-            <p>
-              Preparación Precalentar el horno A 180–200 °C (fuerte pero no
-              máximo). Preparar la carne Salpimentá la carne y frotala con ajo
-              picado, romero y un chorrito de aceite. Sellala en una sartén bien
-              caliente (opcional, da más sabor y jugosidad). Verduras y papas
-              Pelá y cortá las papas en rodajas gruesas o en cuñas. Cortá la
-              cebolla en pluma. Mezclá todo en una fuente con aceite, sal,
-              orégano y un poco de caldo o vino. Horneado Poné la carne sobre
-              las verduras. Tapá con papel aluminio los primeros 40 minutos para
-              que se cocine parejo y no se seque. Destapá y cociná 30–40 min más
-              hasta que esté dorada por fuera y jugosa por dentro.
-            </p>
-            <button class="boton-primario">Descargar receta 🥩</button>
+            <button class="boton-primario">Descargar receta 🍗</button>
           </div>
           <iframe
-            src="https://www.youtube.com/embed/luNouym0FgY?si=jCMn7yVHpV5X83HU"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/yNit0-kHdsc?si=xG5IJICVK7763Vr7"
+            title="Pollo al limón al horno fácil"
             frameborder="0"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
@@ -249,6 +264,8 @@
           ></iframe>
         </div>
       </section>
+
+      <!-- Receta 4 -->
       <section class="receta">
         <div class="contenido-receta">
           <div
@@ -256,31 +273,19 @@
             data-aos="fade-right"
             data-aos-duration="1500"
           >
-            <h1 class="titulo">Vacio al horno con vegetales</h1>
+            <h1 class="titulo">Estofado de ternera con verduras</h1>
             <p>
-              Ingredientes (4 porciones) 1,2 a 1,5 kg de carne para horno
-              (colita de cuadril, tapa de nalga, roast beef o paleta) 4–5 papas
-              medianas 2 cebollas grandes 4 dientes de ajo 1 caldito de carne
-              (opcional) Romero, orégano, pimienta, sal Aceite de oliva o
-              girasol 1 vaso de vino tinto o caldo (opcional)
+              Ingredientes: 1 kg de carne de ternera en cubos, zanahorias,
+              papas, cebolla, tomates triturados, vino tinto, caldo y especias.
+              Preparación: sellar la carne, añadir vegetales, vino y caldo.
+              Cocinar a fuego bajo por 2h hasta que quede tierno y con salsa
+              espesa.
             </p>
-            <p>
-              Preparación Precalentar el horno A 180–200 °C (fuerte pero no
-              máximo). Preparar la carne Salpimentá la carne y frotala con ajo
-              picado, romero y un chorrito de aceite. Sellala en una sartén bien
-              caliente (opcional, da más sabor y jugosidad). Verduras y papas
-              Pelá y cortá las papas en rodajas gruesas o en cuñas. Cortá la
-              cebolla en pluma. Mezclá todo en una fuente con aceite, sal,
-              orégano y un poco de caldo o vino. Horneado Poné la carne sobre
-              las verduras. Tapá con papel aluminio los primeros 40 minutos para
-              que se cocine parejo y no se seque. Destapá y cociná 30–40 min más
-              hasta que esté dorada por fuera y jugosa por dentro.
-            </p>
-            <button class="boton-primario">Descargar receta 🥩</button>
+            <button class="boton-primario">Descargar receta 🍲</button>
           </div>
           <iframe
-            src="https://www.youtube.com/embed/luNouym0FgY?si=jCMn7yVHpV5X83HU"
-            title="YouTube video player"
+            src="https://www.youtube.com/embed/hNTakdq1e5o?si=caiTkbBs5WzjKJ1n"
+            title="Estofado de ternera casero"
             frameborder="0"
             data-aos="zoom-in-up"
             data-aos-duration="1500"
@@ -292,9 +297,9 @@
       </section>
     </main>
     <footer>
-      <img src="../assets/images/recetastico.png" alt="logo recetastico" />
+      <img src="../assets/images/recetastico.png" alt="Logo Recetástico" />
       <div class="enlaces">
-        <h2>Enlaces</h2>
+        <h2>Enlaces rápidos</h2>
         <ul class="enlaces-list">
           <li><a href="pastas.html">Pastas</a></li>
           <li><a href="carnes.html">Carnes</a></li>
@@ -303,10 +308,18 @@
         </ul>
       </div>
       <div class="redes">
-        <a href=""><i class="fab fa-facebook icono"></i></a>
-        <a href=""><i class="fa-brands fa-instagram icono"></i></a>
-        <a href=""><i class="fa-brands fa-youtube icono"></i></a>
-        <a href=""><i class="fa-brands fa-tiktok icono"></i></a>
+        <a href="#" aria-label="Facebook"
+          ><i class="fab fa-facebook icono"></i
+        ></a>
+        <a href="#" aria-label="Instagram"
+          ><i class="fa-brands fa-instagram icono"></i
+        ></a>
+        <a href="#" aria-label="YouTube"
+          ><i class="fa-brands fa-youtube icono"></i
+        ></a>
+        <a href="#" aria-label="TikTok"
+          ><i class="fa-brands fa-tiktok icono"></i
+        ></a>
       </div>
     </footer>
 
