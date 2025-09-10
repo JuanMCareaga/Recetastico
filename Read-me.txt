@@ -1,0 +1,7 @@
+Link a Vercel
+
+https://recetastico.vercel.app/
+
+Link a Github pages:
+
+https://juanmcareaga.github.io/Recetastico
